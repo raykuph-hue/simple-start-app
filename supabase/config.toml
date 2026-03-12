@@ -1,0 +1,19 @@
+project_id = "lpkncrlnsrixswzarlmd"
+
+[functions.generate-website]
+verify_jwt = false
+
+[functions.create-checkout]
+verify_jwt = false
+
+[functions.check-subscription]
+verify_jwt = false
+
+[functions.customer-portal]
+verify_jwt = false
+
+[functions.verify-domain]
+verify_jwt = false
+
+[functions.admin-api]
+verify_jwt = false

@@ -1,0 +1,1 @@
+ALTER TABLE public.profiles ALTER COLUMN sites_limit SET DEFAULT 1;
