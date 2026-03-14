@@ -5,6 +5,7 @@ integrations = ["javascript_database:1.0.0"]
 
 [nix]
 channel = "stable-25_05"
+packages = ["supabase-cli"]
 
 [deployment]
 deploymentTarget = "autoscale"
@@ -42,3 +43,7 @@ externalPort = 80
 [[ports]]
 localPort = 5001
 externalPort = 3000
+
+[[ports]]
+localPort = 5002
+externalPort = 3001
